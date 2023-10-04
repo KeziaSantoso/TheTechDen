@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background-color: #282634;
+}
+
+.navbar-selection {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 40px;
+    margin-left: auto;
+}
+
+.navbar-user {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+    margin-left: 20px;
+    margin-right: -10px;
+}
+
+.navbar-menu, .navbar-user {
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 110px;
+    height: auto;
+    margin-left: -30px;
+    position: relative;
+}
+
+.navbar-link{
+    font-weight: 500;
+    color: #fafafa;
+    font-size: 14px;
+}
+
+.navbar-link:hover{
+    color: #ff4057;
+}
+
+#regist{
+    background-color: #282634;
+    border: 2px solid #fafafa;
+    color: #FAFAFA;
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    width: 100px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#signin{
+    background-color: #fafafa;
+    border: 0px;
+    color: #282634;
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    width: 100px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #282634;
+    margin-top: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 50px;
+}
+
+.footer-section{
+    color: #fafafa;
+}
+
+.footer-title{
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: default;
+}
+
+.footer-item{
+    margin-bottom: 10px;
+    cursor: default;
+    font-size: 13px;
+}
+
+.footer-link:hover{
+    color: #ff4057;
+}
+
+.footer-link{
+    color: #fafafa;
+    font-size: 13px;
+} 
+
+.footer-git{
+    margin-bottom: 10px;
+    cursor: default;
+    font-size: 16px;
+    margin-top: 65px;
+} 
+
+.footer-logo{
+    position: relative;
+    top: 46px;
+    margin-left: -13px;
+    width: 150px;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    column-gap: 10px;
+}
+
+#fb-icon{
+    width: 20px;
+}
+
+#ig-icon{
+    width: 18px;
+    margin-right: 5px;
+}
+
+#yt-icon{
+    width: 20px;
+    margin-bottom: 1px;
+}
+
+.copy{
+    color: #fafafa;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 30px;
+    line-height: 0px;
+    cursor: default;
+    font-size: 13px;
+}
+
+.tou{
+    color: #fafafa;
+    margin-top: -50px;
+    float: right;
+    margin-right: 30px;
+    cursor: default;
+}
